@@ -1,0 +1,27 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Create</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-inverse bg-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/list">Home</a>
+            </div>
+        </div>
+    </nav>
+    <center>
+        <form action="/user" method="post" style="width:30%">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" id="name" type="text" name="Name" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </center>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
